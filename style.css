@@ -242,6 +242,8 @@ footer .container {
 
 div.social-media {
     width: 25%;
+    display: inline-block;
+    float: left;
 }
 
 footer h3 {
@@ -268,4 +270,31 @@ div.social-media select {
 div.social-media a {
     color: white;
     margin-right: 10px;
+}
+    /* Fine regole footer sinistra */
+
+    /* Inizio regole footer centrale */
+
+.list-footer {
+    display: inline-block;
+    float: left;
+    margin: 5px 30px 30px;
+    line-height: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.title-li {
+    color: #6b81cd;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
