@@ -12,6 +12,7 @@ body {
 .container {
     width: 70%;
     margin: auto;
+    max-width: 1180px;
 }
 
 .clearfix::after {
@@ -30,6 +31,8 @@ body {
 /* Fine regole generali */
 
 /* Inizio regole header */
+
+    /* Inizio regole top header */
 .top-header {
     padding-top: 50px;
     height: 40px;
@@ -72,11 +75,14 @@ nav a {
     color: white;
     text-decoration: none;
 }
+    /* Fine regole top header */
 
-a.button {
-    vertical-align: middle;
+    /* Inizio regole text header */
+
+.text-header {
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
-
-
 
 
