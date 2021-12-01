@@ -113,6 +113,10 @@ nav li {
     margin: 0px 15px;
 }
 
+nav li:hover {
+   color: white;
+}
+
 nav a {
     color: white;
     text-decoration: none;
