@@ -21,13 +21,19 @@ body {
     clear: both;
 }
 
-.button {
-    background-color: white;
+button {
+    border: none;
     border-radius: 30px;
-    padding: 0 20px;
+}
+
+button a {
     text-decoration: none;
     color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
 }
+
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -35,8 +41,8 @@ body {
     /* Inizio regole top header */
 .top-header {
     padding-top: 50px;
-    height: 40px;
-    line-height: 40px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
     position: relative;
 }
@@ -54,7 +60,7 @@ header {
     float: left;
 }
 
-.top-header a.button {
+.top-header button {
     float: right;
 }
 
@@ -83,6 +89,34 @@ nav a {
     width: 60%;
     margin: auto;
     text-align: center;
+    color: white;
 }
+
+.text-header h1 {
+    padding-top: 150px;
+    margin-bottom: 40px;
+}
+
+.text-header div {
+    margin: 40px 0;
+}
+
+.text-header div button {
+    margin: 0 10px;
+}
+
+.fas {
+    margin-right: 8px;
+}
+
+#button-black {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
 
 
