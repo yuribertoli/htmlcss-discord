@@ -32,6 +32,12 @@ button a {
     background-color: white;
     border-radius: 30px;
     padding: 10px 20px;
+    border: 1px solid white;
+}
+
+button:hover a {
+    border: 1px solid black;
+    color: blue;
 }
 
 main .container div {
@@ -86,7 +92,12 @@ header {
 
 .top-header button {
     margin-top: 7px;
+    margin-right: 30px;
     float: right;
+}
+
+.top-header button a{
+    padding: 5px 10px;
 }
 
 a.logo img{
@@ -136,8 +147,15 @@ nav a {
 
 #button-black {
     background-color: black;
+    border: 1px solid black;
     color: white;
 }
+
+#button-black:hover {
+    border: 1px solid blue;
+    color: blue;
+}
+
     /* Fine regole text header */
 
 /* Fine regole header */
@@ -287,6 +305,10 @@ li {
     list-style-type: none;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 li a {
     text-decoration: none;
     color: white;
@@ -298,6 +320,10 @@ li a {
     color: #6b81cd;
     font-size: 0.8rem;
     font-weight: 500;
+}
+
+.title-li:hover {
+    cursor: pointer;
 }
     /* Fine regole footer centrale */
 
@@ -314,6 +340,12 @@ div.bottom-page button {
 
 div.bottom-page button a {
     background-color: #8ea1e1;
+    border: 1px solid #8ea1e1;
     color: white;
+}
+
+div.bottom-page button:hover a {
+    border: 1px solid white;
+    color: blue;
 }
 
