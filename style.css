@@ -53,6 +53,11 @@ div.img img{
     margin-top: -10px;
 }
 
+.background-black {
+    background-color: black;
+    color: white;
+}
+
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -224,6 +229,8 @@ main .container.fourth-page div.img img {
     background-color: #8ea1e1;
     color: white;
 }
+     /* Fine regole bottom main */
 
+/* Fine regole main */
 
-
+/* Inizio regole footer */
