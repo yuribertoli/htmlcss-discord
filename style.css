@@ -48,6 +48,11 @@ div.img img{
     width: 200px;
 }
 
+.background-grey {
+    background-color: rgb(246, 246, 246);
+    margin-top: -10px;
+}
+
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -154,8 +159,13 @@ div.text-main p {
     font-size: 0.8rem;
     padding-top: 20px;
 }
+    /* Fine regole prima pagina */
 
+    /* Inizio regole seconda pagina */
 
+div.text-main {
+    margin-left: 50px;
+}
 
 
 
