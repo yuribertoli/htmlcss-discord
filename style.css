@@ -34,6 +34,20 @@ button a {
     padding: 10px 20px;
 }
 
+main .container div {
+    display: inline-block;
+}
+
+div.img img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.text-main {
+    width: 200px;
+}
+
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -113,8 +127,33 @@ nav a {
     background-color: black;
     color: white;
 }
+    /* Fine regole text header */
 
+/* Fine regole header */
 
+/* Inizio regole main */
+
+    /* Inizio regole prima pagina */
+
+div.img {
+    margin: 110px 0 0 50px;
+} 
+
+div.text-main {
+    vertical-align: top;
+    padding: 130px 0 0 50px;
+}
+
+div.text-main h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+div.text-main p {
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
 
 
 
