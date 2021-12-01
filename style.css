@@ -163,9 +163,18 @@ div.text-main p {
 
     /* Inizio regole seconda pagina */
 
-div.text-main {
+div.second-page div.text-main {
     margin-left: 50px;
 }
+    /* Fine regole seconda pagina */
+
+    /* Inizio regole terza pagina */
+
+div.third-page {
+    margin-top: -80px;
+}
+
+
 
 
 
