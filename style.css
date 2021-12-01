@@ -5,13 +5,39 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 .container {
     width: 70%;
     margin: auto;
 }
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.button {
+    background-color: white;
+    border-radius: 30px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
 /* Fine regole generali */
 
 /* Inizio regole header */
+.top-header {
+    padding-top: 50px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    position: relative;
+}
+
 header {
     background-image: url(img/jumbo.png);
     background-size: cover;
@@ -20,3 +46,37 @@ header {
     width: 100%;
     height: 90vh;
 }
+
+.top-header a.logo, nav {
+    float: left;
+}
+
+.top-header a.button {
+    float: right;
+}
+
+a.logo img{
+    vertical-align: middle;
+}
+
+nav {
+    margin-left: 10%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a.button {
+    vertical-align: middle;
+}
+
+
+
+
