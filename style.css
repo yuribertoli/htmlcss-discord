@@ -298,3 +298,21 @@ li a {
     font-size: 0.8rem;
     font-weight: 500;
 }
+    /* Fine regole footer centrale */
+
+    /* Inizio regole bottom footer */
+
+div.bottom-page {
+    margin: 20px 0;
+}
+
+div.bottom-page button {
+    float: right;
+    margin-top: 10px;
+}
+
+div.bottom-page button a {
+    background-color: #8ea1e1;
+    color: white;
+}
+
