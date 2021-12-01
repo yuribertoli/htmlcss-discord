@@ -202,5 +202,28 @@ main .container.fourth-page div.img img {
     margin-top: -100px;
 }
 
+    /* Fine regole quarta pagina */
+
+    /* Inizio regole bottom main */
+
+.bottom-main {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+.bottom-main h2 {
+    padding-bottom: 40px;
+    margin-top: -20px;
+    padding-right: 5px;
+}
+
+.bottom-main button a {
+    background-color: #8ea1e1;
+    color: white;
+}
+
 
 
