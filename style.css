@@ -246,7 +246,13 @@ main .container.fourth-page div.img img {
 
 .bottom-main button a {
     background-color: #8ea1e1;
+    border: 1px solid #8ea1e1;
     color: white;
+}
+
+.bottom-main button:hover a {
+    border: 1px solid black;
+    color: black;
 }
      /* Fine regole bottom main */
 
@@ -346,6 +352,6 @@ div.bottom-page button a {
 
 div.bottom-page button:hover a {
     border: 1px solid white;
-    color: blue;
+    color: black;
 }
 
